@@ -30,10 +30,12 @@ print("You ordered", num_fries, "of the fry baskets.")
 print("-"*40)
 
 #prices
+#emojipedia, where you can find emoji's to paste!
+#format() let's you only show two decimal places
 burger_total=num_burgers*burger_cost
 fry_total=num_fries*fry_cost
 meal_total=burger_total+fry_total
 print("-"*40)
-print(num_burgers, "Burgers\t$", burger_total)
-print(num_fries, "Basket of Fries\t$", fry_total)
-print("Total\t\t$", meal_total)
+print(num_burgers, "🍔 Burgers\t$", format(burger_total, ".2f"))
+print(num_fries, "🍟 Basket of Fries\t$", format(fry_total, ".2f"))
+print("Total\t\t$", format(meal_total, ".2f"))
