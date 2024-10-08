@@ -27,7 +27,9 @@ accomadtion=input("How much are accomadtions going to cost? $")
 food=input("How much do you plan to spend on food? $")
 print("-"*40)
 # add all the expenses together
-# the idea???    gas_tickets+accomadtion+food
+
+total=gas_tickets+accomadtion+food
+
 print("Your budget: $", format(budget, ".2f"))
 # subtract it from the budget
 
