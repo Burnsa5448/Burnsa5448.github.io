@@ -20,6 +20,15 @@ budget=float(input("What is your travel budget? $"))
 # Where is it
 destination=input("Where are you going? ")
 #travel cost ie gas or tickets
-cost=input("How much will gas or tickets be? $")
+gas_tickets=input("How much will gas or tickets be? $")
 # how much for a hotel or airbnb or whatever
 accomadtion=input("How much are accomadtions going to cost? $")
+# food costs
+food=input("How much do you plan to spend on food? $")
+# add all the expenses together
+# the idea???   destination+gas_tickets+accomadtion+food
+
+# subtract it from the budget
+
+print("-"*40)
+#displat the results
