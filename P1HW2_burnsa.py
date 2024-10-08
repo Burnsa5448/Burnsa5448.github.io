@@ -20,19 +20,20 @@ budget=float(input("What is your travel budget? $"))
 # Where is it
 destination=input("Where are you going? ")
 #travel cost ie gas or tickets
-travel=input("How much will gas or tickets be? $")
+travel=float(input("How much will gas or tickets be? $"))
 # how much for a hotel or airbnb or whatever
-hotel=input("How much are you spendingon a hotel or airbnb? $")
+hotel=float(input("How much are you spendingon a hotel or airbnb? $"))
 # food costs
-food=input("How much do you plan to spend on food? $")
+food=float(input("How much do you plan to spend on food? $"))
 print("-"*40)
 # add all the expenses together
 
 total_exp=travel+hotel+food
+left_over=budget-total_exp
 
-
-print("Your budget: $", format(budget, ".2f"))
+print("Your budget before expenses: $", budget)
+print("Expenses total: $", total_exp)
 # subtract it from the budget
-
+print("Your balance after expenses: $", left_over)
 
 #displat the results
