@@ -16,6 +16,10 @@
 """
 print("🛫 Trip Calculator 🛬")
 # Ask  user their budget 
-budget=float(input("What is your travel budget? $ "))
+budget=float(input("What is your travel budget? $"))
 # Where is it
 destination=input("Where are you going? ")
+#travel cost ie gas or tickets
+cost=input("How much will gas or tickets be? $")
+# how much for a hotel or airbnb or whatever
+accomadtion=input("How much are accomadtions going to cost? $")
