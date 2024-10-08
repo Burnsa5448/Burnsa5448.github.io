@@ -25,10 +25,11 @@ gas_tickets=input("How much will gas or tickets be? $")
 accomadtion=input("How much are accomadtions going to cost? $")
 # food costs
 food=input("How much do you plan to spend on food? $")
+print("-"*40)
 # add all the expenses together
-# the idea???   destination+gas_tickets+accomadtion+food
-
+# the idea???    gas_tickets+accomadtion+food
+print("Your budget: $", format(budget, ".2f"))
 # subtract it from the budget
 
-print("-"*40)
+
 #displat the results
