@@ -1,0 +1,106 @@
+:: StoryTitle
+The Doors
+
+
+:: StoryData
+{
+  "ifid": "6543667D-0BB7-4859-9366-D12AE49E7551",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "The Doors",
+  "zoom": 1
+}
+
+
+:: Back Door {"position":"975,475","size":"100,100"}
+The back door is cracked ajar, the door slughtly off it's hinges. Do you go inside?
+
+[[Go inside]]
+[[Call out]]
+[[Leave]]
+
+
+:: Call out {"position":"1100,600","size":"100,100"}
+You call out and ask if anyone's there, there's no answer.
+
+[[Go inside]]
+[[Leave]]
+
+
+:: Front Door {"position":"725,475","size":"100,100"}
+There's no doorbell, and when you knock there's no answer, they have to sign for their package.
+
+
+:: Go down the hall {"position":"1100,725","size":"100,100"}
+There's noise in the closet, when you open it, bats fly out! Where do you run to?!
+
+[[Go to the kitchen]]
+[[Go up the stairs]]
+[[Go to the basement]]
+
+
+:: Go inside {"position":"975,600","size":"100,100"}
+When you go inside it's cold... they have on their air conditioning to 50 degrees...
+
+[[Go down the hall]]
+[[Go up the stairs]]
+[[Go to the basement]]
+[[Go to the kitchen]]
+
+
+:: Go to the basement {"position":"1100,850","size":"100,100"}
+
+
+
+:: Go to the kitchen {"position":"850,850","size":"100,100"}
+In the kitchen the lights don't work. The only light comes from the static TV.
+
+[[Turn the TV off]]
+[[Try to tune to a channel]]
+
+
+
+:: Go up the stairs {"position":"975,850","size":"100,100"}
+
+
+
+:: Leave {"position":"850,600","size":"100,100"}
+You go back about your route, they can sign for the package tomorrow.
+
+[[Turn right]]
+[[Turn left]]
+
+
+:: Side Door {"position":"850,475","size":"100,100"}
+You can see inside the house, the kitchen. The lights are off and the TV on the counter is only playing static.
+
+
+:: The Doors {"position":"850,350","size":"100,100"}
+You're an Amazon driver, delievering a package to a house on Halloween night. Do you choose:
+ 
+[[Front Door]]
+[[Side Door]]
+[[Back Door]]
+ 
+
+
+:: Try to tune to a channel {"position":"975,975","size":"100,100"}
+
+
+
+:: Turn left {"position":"975,725","size":"100,100"}
+You turn left and then... your next delivery is the same house?
+
+[[Front Door]]
+[[Side Door]]
+[[Back Door]]
+
+
+:: Turn right {"position":"850,725","size":"100,100"}
+You turn right, there's a lot of traffic due to trick-or-treaters. It's gonna be a long night.
+
+[[Play Again?->The Doors]]
+
+
+:: Turn the TV off {"position":"850,975","size":"100,100"}
+
