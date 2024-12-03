@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Favorite City</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  
+
+
+<body>
+  <H1>Batavia, New York, USA</H1>
+  <h3>My Favorite City</h3>
+
+  
+  <h3>History</h3>
+  <p>Batavia, located on the Tonawanda Creek at the forCentennial Logomer junction of two major Indian trails, was founded in 1801 by Joseph Ellicott, resident agent for the Holland Land Company.  Four years earlier, the Holland Land Company had purchased 3.5 million acres including the current site of Batavia from Robert Morris, “Financier of the American Revolution,” who in turn had acquired the land from the State of Massachusetts.  The Seneca Nation, with the exception of reservations existing still today, in exchange for a payment of $100,000 ceded its rights to this land in the 1797 Treaty of Big Tree.</p>
+
+  
+<h3>Location</h3>
+  <p>Batavia is located closely to Buffalo, New York, go Buffalo Bills! It is also quite close to Lake Ontario, and Toronto, Canada, and the natural maple syrup you can buy is to die for.</p>
+<img src="batavia map.png" width="300"></img>
+
+
+   <h3>Things to Do in Batavia</h3>
+  <p>1. You could go to the Batavia Downs, and watch the horse races, maybe do a bit of gambling if that suits your fancy.
+  <p> 2. Or you could visit Oliver's Candies where they make homemade candy.</p>
+  <p>3. And if city scapes aren't your style then there's plenty of country land you'll come across, just be careful that you down leave the town borders.</p>
+  <img src="batavia downs horse races.png" width="200"></img>
+  <img src="batavia.png" width="200"></img>
+  <img src="OIP.png" width="155"></img>
+<script scr="script.js"></script>
+
+  <!-- link for more info -->
+<p>For more information,
+  <a href="https://www.batavianewyork.com/" target=_blank">City of Batavia NY</a>
+</p>
+  <p> Or book at trip to Batavia at
+  <a href="https://www.booking.com/city/us/batavia.en.html?aid=346685&pagename=batavia&label=msn-3sY19ddLK8NV8_P*0SwI*w-80608120353008:tikwd-80608280707786:loc-4109:neo:mte:lp81690:dec:qsbatavia%20new%20york&utm_campaign=NY%3A%20New%20York%20State&utm_medium=cpc&utm_source=bing&utm_term=3sY19ddLK8NV8_P*0SwI*w&msclkid=e966da547ee012f56688bc9a6427f2a1&utm_content=NY%3A%20Batavia%20-%20UFI%3A20084879" target="_blank">Booking.com</a>
+  </p>
+    <!-- footer -->
+<p style="text-align: center;"">
+  Created by: Aubrey Burns
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
