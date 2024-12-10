@@ -110,9 +110,27 @@ body {
   }
 }
 /* test: drop shadow */
-.carousel-inner .item img {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
 }
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel img {
+  width: 100%;
+  display: block;
+}
+
 
 </style>
 </head>
